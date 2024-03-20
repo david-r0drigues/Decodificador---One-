@@ -1,4 +1,4 @@
-# Decodificador de Texto -One-
+# Decodificador
 
 Este é um aplicativo web simples chamado "Decodificador" que permite ao usuário criptografar e descriptografar mensagens de texto usando um algoritmo de substituição simples. Ele foi desenvolvido com HTML, CSS e JavaScript.
 

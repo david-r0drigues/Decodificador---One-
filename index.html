@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="claro">
+    <header class="titulo">
+        <img class="logo" src="./assets/imagem/logo.png" alt="Logo one">
+        <h1 id="h1">Oracle Next Education 2024 - T6</h1>
+        <img id="iconeTema" src="./assets/imagem/sol1.png" alt="Ícone do tema" class="tema-claro">
+    </header>
+    <main class="main">
+        <div class="inserirTexto">
+            <textarea id="cxTexto" rows="10" cols="95" placeholder="Insira seu texto aqui!"></textarea>
+            <div class="aviso">
+                <img id="avisoImg" src="./assets/imagem/exclamacao.png" alt="ícone de exclamação">
+                <span id="avisoMensag">Apenas letras minúsculas e sem acento.</span>
+            </div>
+            <div class="botoes">
+                <button id="btnCriptografar">Criptografar</button>
+                <button id="btnDescriptografar">Descriptografar</button>
+            </div>
+            <span id="mensagemAguardando" style="display: none;">Aguardando clique nos botões de criptografar ou descriptografar...</span>
+        </div>
+        <div class="textoResultado">
+            <img id="imagemResultado" src="./assets/imagem/High quality products 1 1.png" alt="Uma pessoa com a lupa na frente dos olhos procurando algo.">
+            <span id="textoExibido">Nenhuma mensagem encontrada</span>
+            <span id="textoDigite">Digite um texto que você deseja criptografar ou descriptografar.</span>
+            <div class="btnTextoResultado">
+                <button id="btnLimpar">Limpar</button>
+                <button id="btnCopiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="perfil">
+            <div class="fotoNome">
+                <img src="./assets/user-image.png" alt="Perfil">
+                <span id="nome">David Rodrigues</span>
+            </div>
+            <div class="redes-sociais">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/david-rodrigues-06069a244/overlay/about-this-profile/" class="linkedin">Linkedin</a></li>
+                    <li><a href="https://github.com/david-r0drigues" class="github">Github</a></li>
+                    <li><a href="https://www.instagram.com/davidrodrigues_cps?igsh=OGU0MmVlOWVjOQ==" class="instagram">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
